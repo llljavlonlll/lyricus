@@ -33,7 +33,7 @@ def find_lyrics(message):
     chat_id = message.chat.id
     user_input = message.text
     data_list = user_input.split('-')
-    contents = requests.get(f'https://orion.apiseeds.com/api/music/lyric/{data_list[0]}/{data_list[1]}?apikey={some_api_token}').json()
+    contents = requests.get(f'https://orion.apiseeds.com/api/music/lyric/{data_list[0]}/{data_list[1]}?apikey=T6gnlNPRvszFzlFmAb7nkZ24YhRMjyqFZqibOy1wgznLPRkqOORNwnCWkLzN0qna').json()
     try:
         lyrics = contents['result']['track']['text']
     except KeyError:
