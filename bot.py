@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
-import redis
 import os
 import telebot
 import requests
 # import some_api_lib
 # import ...
 
+#653592451:AAFQE_iGtgiPUPb-z0kzqk6Gz4ekHSGUaKY
+#T6gnlNPRvszFzlFmAb7nkZ24YhRMjyqFZqibOy1wgznLPRkqOORNwnCWkLzN0qna
 # Example of your code beginning
 #           Config vars
 token = os.environ['TELEGRAM_TOKEN']
