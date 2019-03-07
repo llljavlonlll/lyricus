@@ -22,6 +22,7 @@ some_api_token = os.environ['SOME_API_TOKEN']
 bot = telebot.TeleBot(f"{token}")
 artist = ""
 title = ""
+data_list = ["",""]
 
 @bot.message_handler(commands=['start','help'])
 def send_welcome(message):
