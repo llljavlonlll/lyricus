@@ -1,2 +1,2 @@
 # lyricus
-Telegram bot that helps fetch lyrics
+Telegram bot for fetching lyrics
